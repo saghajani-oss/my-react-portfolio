@@ -3,6 +3,6 @@ import "./experience.css"
 
 export default function experience() {
     return(
-        <div className="experience"></div>
+        <div className="experience">Experience</div>
     )
 }
