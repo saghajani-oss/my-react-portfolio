@@ -15,8 +15,10 @@ export default function Header() {
           <HeaderSocial />
           <div className="me">
             <img src={ME} alt="me" />
-            <a href="#contact" className="scroll__down">Scroll Down</a>
           </div>
+          <a href="#contact" className="scroll__down">
+            Scroll Down
+          </a>
         </div>
       </header>
     );
