@@ -10,6 +10,10 @@ overflow: hidden;
   position: relative;
 }
 
+h1 {
+  font-weight: 700;
+}
+
 /* ============= CALL TO ACTION ============= */
 .cta {
   display: flex;
