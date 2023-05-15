@@ -35,19 +35,17 @@ export default function About() {
             </article>
           </div>
           <p>
-            Nach meinem Universitätsabschluss als IT-Ingenieur vor zehn Jahren
-            habe ich begonnen, als Netzwerkexperte zu arbeiten. Als ich
-            Entscheidung traf, meine persönliche Website zu gestalten, verstand
-            ich meine große Interese in diesem Bereich. Zu diesem Zweck begann
-            ich, Word Press zu lernen. Nachdem ich mein erstes Projekt
-            abgeschlossen hatte, wollte ich meine Fähigkeiten als
-            Front-End-Entwickler verbessern. Daher setzte ich meine Lernreise
-            fort, indem ich Online-Kurse auf Seven Learn, YouTube, She Codes,
-            Scrimba und so weiter belegte. Nach einer Weile wechselte ich meinen
-            Job, um das, was ich als Front-End-Entwickler gelernt hatte, in
-            realen Projekten umzusetzen. Dank des neuen Arbeitsplatzes konnte
-            ich diese Lernreise fortsetzen. Mein ausgeprägtes Interesse am
-            Programmieren hat mich immer auf die laufenden Richtung gehalten.
+            After graduating from university as an IT engineer ten years ago, I
+            started working as a network expert. When I made the decision to
+            create my personal website, I understood my great interest in this
+            field. To that end, I started learning Word Press. After completing
+            my first project, I wanted to improve my skills as a front-end
+            developer. So I continued my learning journey by taking online
+            courses on Seven Learn, YouTube, She Codes, Scrimba and so on. After
+            a while I changed my job to apply what I learned as a front-end
+            developer to real projects. Thanks to the new job, I was able to
+            continue this learning journey. My keen interest in programming has
+            always kept me on the right track.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
