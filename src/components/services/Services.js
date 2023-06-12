@@ -4,7 +4,7 @@ import {BiCheck} from "react-icons/bi"
 
 export default function Services() {
     return (
-      <section id="services">
+      <section className="services" id="services">
         <h5>What I Offer</h5>
         <h2>Services</h2>
         <div className="container services__container">
@@ -28,14 +28,12 @@ export default function Services() {
                 <BiCheck className="service__list-icon" />
                 <p>
                   knowledge of a variety of programming languages, including
-                  HTML, CSS and JavaScript 
+                  HTML, CSS and JavaScript
                 </p>
               </li>
               <li>
                 <BiCheck className="service__list-icon" />
-                <p>
-                  knowledge of JavaScript frameworks (React) and libraries
-                </p>
+                <p>knowledge of JavaScript frameworks (React) and libraries</p>
               </li>
             </ul>
           </article>
