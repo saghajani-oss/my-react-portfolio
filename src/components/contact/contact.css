@@ -1,8 +1,8 @@
 .container.contact__container {
     width: 68%;
     display: grid;
-    grid-template-columns: 40% 58%;
-    gap: 12%;
+    grid-template-columns: 40% 50%;
+    gap: 10%;
 }
 
 .contact__options {
@@ -61,7 +61,7 @@ input::placeholder, textarea::placeholder {
 }
 
 /* ================== MEDIA QUERIES (MEDIUM DEVICES) ================== */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
 .container.contact__container {
     grid-template-columns: 1fr;
     gap: 2rem;
