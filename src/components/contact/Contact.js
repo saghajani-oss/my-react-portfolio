@@ -11,21 +11,23 @@ export default function Contact() {
         <h2>Contact Me</h2>
 
         <div className="container contact__container">
-          <div className="contact__option">
+          <div className="contact__options">
             <article className="contact__option">
-              <MdOutlineMail />
+              <MdOutlineMail className="contact__option-icon" />
               <h4>Email</h4>
               <h5>samira_aghajani66@yahoo.com</h5>
               <a href="mailto:samira_aghajani66@yahoo.com">Send a message</a>
             </article>
             <article className="contact__option">
-              <FaWhatsapp />
+              <FaWhatsapp className="contact__option-icon" />
               <h4>WhatsApp</h4>
               <h5>+98-912 6036480</h5>
-              <a href="https://wa.me/+989126036480" target="_blank">Send a message</a>
+              <a href="https://wa.me/+989126036480" target="_blank">
+                Send a message
+              </a>
             </article>
             <article className="contact__option">
-              <FiLinkedin />
+              <FiLinkedin className="contact__option-icon" />
               <h4>LinkedIn</h4>
               <h5>samira-aghajani</h5>
               <a
@@ -38,9 +40,27 @@ export default function Contact() {
           </div>
           {/* END OF CONTACT OPTION */}
           <form action="">
-            <input type="text" name="name" placeholder="Your Full Name" required />
-            <input type="email" name="email" placeholder="Your Email" required />
-            <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Full Name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              rows="7"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit" className="btn btn-primary">
+              Send Message
+            </button>
           </form>
         </div>
       </section>
