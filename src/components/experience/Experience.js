@@ -64,7 +64,7 @@ export default function Experience() {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>English</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Upper Intermediate</small>
               </div>
             </article>
             <article className="experience__details">

@@ -37,18 +37,18 @@ export default function Footer() {
           </li>
         </ul>
         <div className="footer__social">
-          <a href="https://facebook.com">
+          <a href="https://www.facebook.com/aghajani.samira">
             <FaFacebookF />
           </a>
-          <a href="https://instagram.com">
+          <a href="https://www.instagram.com/samira_aghajani66/">
             <FiInstagram />
           </a>
-          <a href="https://twitter.com">
+          <a href="https://twitter.com/smaghj">
             <IoLogoTwitter />
           </a>
         </div>
         <div className="footer__copyright">
-            <small>&copy; Samira Aghajani. All rights reserved.</small>
+          <small>&copy; Samira Aghajani. All rights reserved.</small>
         </div>
       </footer>
     );
